@@ -11,7 +11,7 @@
 <body>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">Latitude</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,10 +29,12 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                  <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
-                  <li><a class="dropdown-item" href="Temp.html">Max Temperature</a></li>
-                  <li><a class="dropdown-item" href="Wind.html">Wind Speed</a></li>
+                  <li><a class="dropdown-item" href="#">Humidity</a></li>
+                  <li><a class="dropdown-item" href="#">Max Temperature</a></li>
+                  <li><a class="dropdown-item" href="#">Wind Speed</a></li>
                   <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="comparison.html">Comparison</a></li>
+
                   
                 </ul>
               </li>
@@ -49,19 +51,60 @@
       </nav>
 
 
-    
+    <section class="container d-flex flex-row"> 
+        <div> 
+          <div> 
+        
+        
+    <h1>Latitude Analysis Dashboard with Attitude</h1>
+    <section>
+        <p> Through an educational setting we explore the power of APIs.  API is the acronym for Application Programming Interface, which is a software
+           intermediary that allows two applications to talk to each other. We used a weather api platform to find an ideal 
+          vacation spot. We explored the common weather factors that could hinder travel and activies.  </p>
+        <!--this is where we will add Class to pretty up-->
+        <!--The links to other pages below-->
+        These are the four factors we explored in our vacation research.
+        <a href= "cloudiness.html" >Cloudiness</a>
+        <a href= "Humidity.html">Humidity</a>
+        <a href= "Temp.html">Max Temperature</a>
+        <a href= "Wind.html">Wind Speed</a>
+        
+    </section>
+    <section>
+      <h1> Visualization</h1>
+
+        <h2>Latitude vs Cloudiness</h2>
+        <img src="latitude vs Cloudiness.png"/> 
+        <p>we talked about clouds bdlfjljflafjoeijfeifhahfewiawoi</p>
+    </section><section>
+        <h2>Latitude vs Humidity</h2>
+        <img src="latitude vs Humidity.png"/> 
+        <p>we talked about bdlfjljflafjoeijfeifhahfewiawoi</p>
+    </section>
+    <section>
+        <h2>Latitude vs Max Temperature</h2>
+        <img src="latitude vs Max Temperature.png"/> 
+        <p>we talked about bdlfjljflafjoeijfeifhahfewiawoi</p>
+    </section>
+    <section>
+        <h2>Latitude vs Wind Speed </h2>
+        <img src="latitude vs Wind Speed.png"/> 
+        <p>we talked about clouds bdlfjljflafjoeijfeifhahfewiawoi</p>
+    </section>
+    </div>
+    </div>
     <section >
-        <h2>Comparison</h2>
-        <!--<style>
+     <h1>Visualization</h1>
+        <style>
         .images {
             display: flex;
             flex-wrap: wrap;
-            margin: 0 50px;
-            padding: 30px;
+            margin: 0 2px;
+            padding: 3px;
         }
   
         .photo {
-            max-width: 31.333%;
+           
             padding: 0 10px;
             height: 240px;
         }
@@ -70,32 +113,34 @@
             width: 100%;
             height: 100%;
         }
-    </style>-->
+    </style>
         <div class="images">
           <div class="photo">
-              <img src="latitude vs Cloudiness.png" alt=  "photo" style="width: 1rem;" />
-          </div>
+            <a href="cloudiness.html">
+              <img src="latitude vs Cloudiness.png" alt=  "photo" style="width: 25%;" />
+          </a>
+            </div>
     
           <div class="photo">
-              <img src="latitude vs Humidity.png" alt="photo" />
+            <a href="Humidity.html">
+              <img src="latitude vs Humidity.png" alt="photo" style="width: 25%;"  />
+            </a>
           </div>
             
           <div class="photo">
-              <img src="latitude vs Max Temperature.png" alt="photo" />
+            <a href= "temp.html">
+              <img src="latitude vs Max Temperature.png" alt="photo"style="width: 25%;"  />
+            </a>  
           </div>    
           <div class="photo">
-              <img src="latitude vs Wind Speed.png" alt="photo" />
+            <a href= "Wind.html">
+              <img src="latitude vs Wind Speed.png" alt="photo"style="width: 25%;" />
+            </a>
           </div>
         
         <p> we talked about clouds bdlfjljflafjoeijfeifhahfewiawoi</p>
     </section>
-    <section>
-        <h2>Data</h2>
-        <!--Add the Csv file here-->
-        <img src="latitude vs Cloudiness.png"/> 
-        <p>we talked about clouds bdlfjljflafjoeijfeifhahfewiawoi</p>
-    </section>
-
+    
 </section>
 </body>
 </html>
